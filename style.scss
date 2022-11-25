@@ -9,11 +9,12 @@ body {
 .clock {
     width: 200px;
     height: 200px;
-    border: 10px solid #bcf308;
+    border: 10px solid #ffffff;
     border-radius: 50%;
     position: relative;
+
     backdrop-filter: blur(2px);
-    background: rgb(0 0 0 / 45%);
+
 
     .hand {
         position: absolute;
@@ -28,8 +29,8 @@ body {
         transform: rotate(0deg);
         transform-origin: bottom;
         background: yellow;
-        transition: all 0.07s;
-        transition-timing-function:cubic-bezier(0.19, 2.16, 0.16, 2);
+        // transition: all 0.07s;
+        // transition-timing-function:cubic-bezier(0.19, 2.16, 0.16, 2);
         border-radius: 50%;
         border-bottom-right-radius:0;
         border-bottom-left-radius:0;
